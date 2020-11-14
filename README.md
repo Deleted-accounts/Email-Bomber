@@ -10,4 +10,4 @@ end sign-in to your email account.
 now start to bomb
 
 this is my first project..
-Errors or questions you can ask me here: [Telegram](https://t.me/anonxl)
+Errors or questions you can ask me here: [Telegram](https://t.me/Successfully_deleted) [Email](sslwm2362@gmail.com)
