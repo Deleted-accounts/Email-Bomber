@@ -3,6 +3,18 @@
 **very important! go to https://myaccount.google.com/lesssecureapps end enable it!**
 
 ## just run:
+
+### on windows
+```
+pip install termcolor
+```
+### on linux
+```
+pip3 install termcolor
+```
+
+#### now run the bomber
+
 ```
 python3 Email_Bomber.py
 ```
