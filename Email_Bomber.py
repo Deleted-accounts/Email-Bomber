@@ -1,4 +1,5 @@
 import smtplib
+import sys
 from termcolor import colored
 
 # login to your email
@@ -14,9 +15,9 @@ elif smtp == "2":
     server = smtplib.SMTP('smtp.mail.yahoo.com', 587)
     server.starttls()
 else:
-    exit("[-] you're stupid! run me again!")
+    sys.exit("[-] you're stupid! run me again!")
 
-print(colored("[!] very important go to https://myaccount.google.com/lesssecureapps end enable it!", 'red'))
+print(colored("[!] very important go to https://myaccount.google.com/lesssecureapps/ end enable it!", 'red'))
 
 email = input("enter your email here: ")
 password = input("enter your password here: ")
@@ -30,7 +31,7 @@ try:
 
 except smtplib.SMTPAuthenticationError:
     print("[-] wrong email or password, or try to enable less secure apps in your account ")
-    exit("run me again")
+    sys.exit("run me again")
 
 
 def bomber():
