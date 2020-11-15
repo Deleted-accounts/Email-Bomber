@@ -4,11 +4,11 @@
 
 ## just run:
 
-### on windows
+### on windows:
 ```
 pip install termcolor
 ```
-### on linux
+### on linux:
 ```
 pip3 install termcolor
 ```
