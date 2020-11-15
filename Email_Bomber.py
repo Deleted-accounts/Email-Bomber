@@ -40,7 +40,6 @@ def bomber():
 
     for count in range(int(thread)):
         server.sendmail(email, send, msg)
-        print(colored("[+] spam will be start now", 'green'))
         print(count, "[+] spammed successfully!")
 
 
