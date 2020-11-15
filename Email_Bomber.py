@@ -45,3 +45,11 @@ def bomber():
 
 
 bomber()
+
+while True:
+    if __name__ == "__main__":
+        answer = input("Do you want to run me more?\n")
+        if answer.strip() in "y Y yes Yes YES".split():
+            bomber()
+        else:
+            sys.exit("bye bye")
